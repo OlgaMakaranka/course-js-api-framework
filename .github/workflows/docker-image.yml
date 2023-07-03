@@ -17,5 +17,5 @@ jobs:
     - name: Build the Docker image
       run: |
         docker build -t olgamakaranka/python-greetings-app:latest .
-        docker olgamakaranka/python-greetings-app:latest
+        docker push olgamakaranka/python-greetings-app:latest
         
